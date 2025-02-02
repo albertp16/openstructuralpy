@@ -20,3 +20,5 @@ You can clone the repository using:
 ```bash
 git clone https://github.com/albertp16/openstructuralpy.git
 cd openstructuralpy
+
+test
