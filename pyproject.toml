@@ -3,11 +3,13 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "openstructuralpy"  # <-- Add your package name here
+name = "openstructuralpy"
 version = "0.1.0"
 description = "A Python library for structural engineering based on NSCP 2015 and ACI 318-19"
-authors = [{name = "Albert Pamonag", email = "your-email@example.com"}]
-license = {text = "MIT"}
+authors = [
+    {name = "Albert Pamonag", email = "your-email@example.com"}
+]
+license = {file = "LICENSE"}  # Ensure you have a LICENSE file
 dependencies = [
     "numpy",
     "scipy",
