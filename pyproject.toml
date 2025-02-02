@@ -1,20 +1,16 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "openstructuralpy"
-version = "0.1.0"
-description = "A Python library for structural engineering based on NSCP 2015 and ACI 318-19"
-authors = [
-    {name = "Albert Pamonag", email = "your-email@example.com"}
+version = "0.0.1"
+description = "A collection of structural engineering modules for structural analysis."
+readme = "README.md"
+requires-python = ">=3.6"
+# No license field here.
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
 ]
-license = {file = "LICENSE"}  # Ensure you have a LICENSE file
-dependencies = [
-    "numpy",
-    "scipy",
-    "matplotlib"
-]
-
-[tool.setuptools.packages.find]
-where = ["src"]  # Adjust if your package is structured differently
+dependencies = []

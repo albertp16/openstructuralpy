@@ -1,8 +1,4 @@
-from setuptools import setup
+import setuptools
 
-setup(
-    name="openstructuralpy",
-    version="0.1.0",
-    packages=["openstructuralpy"],
-    install_requires=[],
-)
+if __name__ == "__main__":
+    setuptools.setup()
