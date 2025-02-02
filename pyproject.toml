@@ -1,0 +1,8 @@
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+version = {attr = "your_package.__version__"}
+
+[tool.setuptools_scm]
+write_to = "src/your_package/_version.py"
