@@ -1,0 +1,8 @@
+README.md
+setup.py
+openstructuralpy/__init__.py
+openstructuralpy/main.py
+openstructuralpy.egg-info/PKG-INFO
+openstructuralpy.egg-info/SOURCES.txt
+openstructuralpy.egg-info/dependency_links.txt
+openstructuralpy.egg-info/top_level.txt
