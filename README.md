@@ -32,4 +32,4 @@ pip install openstructuralpy
 ## 👥 Authors and Contributors
 
 - **Albert Pamonag** - Contributor ([albertp16](https://github.com/albertp16))
-- **Mark Ipa** - Contributor
+- **Mark Ipa** - Contributor ([markipa24](https://github.com/markipa24))
