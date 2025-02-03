@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openstructuralpy"
+version = "0.0.1"
+description = "A collection of structural engineering modules for structural analysis."
+readme = "README.md"
+requires-python = ">=3.6"
+# No license field here.
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+dependencies = []
